@@ -49,10 +49,10 @@ namespace MyConsoleApp
     }
 
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/hello")]
     public class HelloController : ControllerBase
     {
-        [HttpGet("hello")]
+        [HttpGet]
         public IActionResult GetHello()
         {
             return Ok("word");
