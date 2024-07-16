@@ -18,7 +18,7 @@ namespace MyConsoleApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://localhost:8000"); // 设置端口为8000
+                    webBuilder.UseUrls("http://localhost:5000");
                     webBuilder.ConfigureServices(services =>
                     {
                         services.AddControllers();
